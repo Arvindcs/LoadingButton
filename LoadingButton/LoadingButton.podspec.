@@ -1,0 +1,26 @@
+Pod::Spec.new do |s|
+  s.name             = 'LoadingButton'
+  s.version          = '0.1.0'
+  s.summary          = 'iOS Custom UIButton Class written in Swift!'
+ 
+  s.description      = <<-DESC
+iOS Custom UIButton Class written in Swift!
+                       DESC
+ 
+  s.homepage         = 'https://github.com/arvindcs/LoadingButton'
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.author           = { 'Arvind Patel' => 'arvindpatelcs@gmail.com' }
+
+
+
+  s.source           = { :git => 'https://github.com/arvindcs/LoadingButton.git', :tag => s.version.to_s }
+ 
+  s.ios.deployment_target = '11.0'
+  #s.source_files = 'LoadingButton/Source/APButton.swift'
+  s.source       = { :git => "https://github.com/myrepo/Podspecs.git", :branch => "xyz",
+                   :tag => s.version.to_s }
+
+ 
+end
+
+/Users/arvind/Documents/LoadingButton/LoadingButton.podspec. 
